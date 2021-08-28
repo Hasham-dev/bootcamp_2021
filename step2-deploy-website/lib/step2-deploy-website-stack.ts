@@ -3,7 +3,6 @@ import * as s3 from '@aws-cdk/aws-s3';
 import * as s3deploy from '@aws-cdk/aws-s3-deployment';
 import * as origin from '@aws-cdk/aws-cloudfront-origins';
 import * as cf from '@aws-cdk/aws-cloudfront';
-import { OriginAccessIdentity, OriginSslPolicy } from '@aws-cdk/aws-cloudfront';
 
 export class Step2DeployWebsiteStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
